@@ -5,42 +5,22 @@ import { Menu } from "./components/Menu";
 import { Project } from "./components/Project";
 import { Contact } from "./components/Contact";
 import { Content } from "./components/Content";
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
-
+import { Resume } from "./components/Resume";
 function App() {
-  const [page, setPage] = useState("#Home");
-
-  // const router = createBrowserRouter([
-  //   {
-  //     path: "/Home",
-  //     element: <Home />,
-  //   },
-  //   {
-  //     path: "/About",
-  //     element: <About />,
-  //   },
-  //   {
-  //     path: "/Project",
-  //     element: <Project />,
-  //   },
-  //   {
-  //     path: "/Contact",
-  //     element: <Contact />,
-  //   },
-  // ]);
+  const [page, setPage] = useState("About");
 
   const pageToShow = () => {
     switch (page) {
-      case "Home":
-        return <Home />;
       case "About":
         return <About />;
       case "Projects":
         return <Project />;
       case "Contact":
         return <Contact />;
+      case "Resume":
+        return <Resume />;
       default:
-        return <Home />;
+        return <About />;
     }
   };
 

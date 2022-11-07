@@ -3,9 +3,12 @@ import { nanoid } from "nanoid";
 import "./Menu.css";
 
 export const Menu = ({ page, setPage }) => {
-  const menu = ["Home", "About", "Education", "Projects", "Contact"];
+  const menu = ["About", "Projects", "Contact", "Resume"];
   const [isClicked, setIsClicked] = useState(false);
 
+  useEffect(() => {
+    console.log("just once");
+  }, []);
   const handleMouseMove = (i) => (e) => {
     // setPage(`${menu[i]}`);
   };
@@ -13,7 +16,6 @@ export const Menu = ({ page, setPage }) => {
   const handleMouseClicked = (i) => (e) => {
     setIsClicked(!isClicked);
     setPage(`${menu[i]}`);
-    console.log(e);
   };
 
   return (

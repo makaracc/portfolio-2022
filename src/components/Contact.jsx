@@ -1,3 +1,3 @@
 export const Contact = () => {
-  return <div className=" m-0">Hello Contact</div>;
+  return <div className=" m-0">Contact layout to be created</div>;
 };
