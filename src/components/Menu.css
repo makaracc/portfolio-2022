@@ -1,0 +1,54 @@
+.menu-items {
+  margin-left: clamp(4rem, 10vw, 20rem);
+  z-index: 2;
+}
+
+.menu-items:hover > .menu-item {
+  opacity: 0.3;
+}
+
+.menu-items:hover > .menu-item:hover {
+  opacity: 1;
+}
+
+.menu-item {
+  color: white;
+  /* font-size: clamp(0.5rem, 2vw, 1.5rem); */
+  font-size: clamp(1rem, 3vw, 3rem);
+  font-family: "Roboto", sans-serif;
+
+  display: block;
+  text-decoration: none;
+  padding: clamp(0.25rem, 0.5vw, 1rem) rem;
+  /* transition: all 250ms ease; */
+}
+
+.menu-item:hover {
+  /* font-size: clamp(1rem, 3vw, 3rem); */
+  transition: all 250ms ease;
+}
+
+.menu-bg {
+  height: 100vh;
+  width: 100vw;
+
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.2) 9%,
+    transparent 10%
+  );
+
+  background-position: 0% 0%;
+  background-size: 10vmin 10vmin;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  transition: opacity 800ms ease, background-size 800ms ease;
+}
+
+.menu-items:hover ~ .menu-bg {
+  background-size: 15vmin 15vmin;
+  opacity: 0.15;
+}
