@@ -2,7 +2,7 @@ import { Document, Page } from "react-pdf";
 import { useState } from "react";
 
 export const Resume = () => {
-  const [file, setFile] = useState("../../public/Resume_UpToDate.pdf");
+  const [file, setFile] = useState("/public/Resume_UpToDate.pdf");
   const [numPages, setNumPages] = useState(null);
 
   function onDocumentLoadSuccess({ numPages: nextNumPages }) {

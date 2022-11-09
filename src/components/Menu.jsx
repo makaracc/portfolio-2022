@@ -11,6 +11,7 @@ export const Menu = ({ page, setPage }) => {
   }, []);
   const handleMouseMove = (i) => (e) => {
     // setPage(`${menu[i]}`);
+    setPage(`${menu[i]}`);
   };
 
   const handleMouseClicked = (i) => (e) => {

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { About } from "./components/About";
-import { Home } from "./components/Home";
 import { Menu } from "./components/Menu";
 import { Project } from "./components/Project";
 import { Skills } from "./components/Skills";
