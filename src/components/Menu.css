@@ -14,7 +14,6 @@
 .menu-item {
   color: white;
   font-size: clamp(0.5rem, 2vw, 1.5rem);
-  font-family: "Roboto", sans-serif;
 
   display: block;
   text-decoration: none;
@@ -58,7 +57,7 @@
   height: 100%;
   width: 100%;
 
-  background-image: url(/public/images/bg-img.jpeg);
+  background-image: url(/images/bg-img.jpeg);
   position: absolute;
   left: 0px;
   top: 0px;

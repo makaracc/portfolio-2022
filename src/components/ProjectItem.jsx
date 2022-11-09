@@ -13,9 +13,9 @@ export const ProjectItem = ({ name, about, link, image }) => {
       onClick={() => {}}
       onMouseOver={() => setDetail(true)}
       onMouseOut={() => setDetail(false)}
-      className="relative p-1 flex-col place-items-center border rounded border-slate-800 bg-slate-900 proj-item"
+      className="relative p-1 flex-col place-items-center border rounded border-slate-800 bg-slate-900 proj-item emoji-cursor"
     >
-      <img loading="lazy" src={image} alt={name} />
+      <img loading="lazy" src={image} alt={name} width={500} />
       <p className="text-xs text-center">{name}</p>
     </div>
   );
