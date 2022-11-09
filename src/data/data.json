@@ -12,6 +12,34 @@
       "about": "Pathfinding algorithm written in C# using Splashkit library.",
       "image": "https://github.com/makaracc/CSharpPathfinding/raw/main/Resources/app%20_running.png",
       "link": "https://github.com/makaracc/CSharpPathfinding"
+    },
+    {
+      "name": "Pet Fact",
+      "about": "",
+      "image": "../../public/images/pet-proj.png",
+      "link": "https://github.com/makaracc/CatFact"
+    },
+    {
+      "name": "Cat Bot",
+      "about": "",
+      "image": "../../public/images/catbot-proj.png",
+      "link": "https://github.com/makaracc/CatBot"
+    },
+    {
+      "name": "My Github",
+      "about": "",
+      "image": "../../public/images/more-proj.png",
+      "link": "https://github.com/makaracc/"
     }
+  ],
+  "skills": [
+    { "type": "C++", "level": 60 },
+    { "type": "C#", "level": 70 },
+    { "type": "JavaScript", "level": 75 },
+    { "type": "TypeScript", "level": 65 },
+    { "type": "Git", "level": 90 },
+    { "type": "CLI", "level": 80 },
+    { "type": "Docker", "level": 60 },
+    { "type": "AWS", "level": 50 }
   ]
 }

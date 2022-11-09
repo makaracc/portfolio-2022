@@ -1,0 +1,12 @@
+.proj-item {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 800ms;
+}
+
+.proj-item:hover {
+  background-color: #7180a7;
+  width: 110%;
+  height: 110%;
+  opacity: 1;
+}

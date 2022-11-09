@@ -26,7 +26,7 @@ export const Menu = ({ page, setPage }) => {
             href={`#${item}`}
             key={nanoid()}
             className={`menu-item`}
-            onMouseMove={handleMouseMove(i)}
+            onMouseOver={handleMouseMove(i)}
             onClick={handleMouseClicked(i)}
           >
             {item}

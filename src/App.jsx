@@ -7,7 +7,7 @@ import { Skills } from "./components/Skills";
 import { Content } from "./components/Content";
 import { Resume } from "./components/Resume";
 function App() {
-  const [page, setPage] = useState("About");
+  const [page, setPage] = useState("");
 
   const pageToShow = () => {
     switch (page) {
@@ -20,7 +20,7 @@ function App() {
       case "Resume":
         return <Resume />;
       default:
-        return <About />;
+        return <Project />;
     }
   };
 
