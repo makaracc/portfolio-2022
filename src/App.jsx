@@ -1,12 +1,19 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { About } from "./components/About";
 import { Menu } from "./components/Menu";
 import { Project } from "./components/Project";
 import { Skills } from "./components/Skills";
 import { Content } from "./components/Content";
 import { Resume } from "./components/Resume";
+import { useStore } from "./hooks/useStore";
 function App() {
   const [page, setPage] = useState("");
+
+  // const path = useStore((state) => state.path);
+  // const setPath = useStore((state) => state.setPath);
+  // useEffect(() => {
+  //   setPath(page);
+  // }, [page]);
 
   const pageToShow = () => {
     switch (page) {

@@ -8,7 +8,7 @@
   "home_description": "",
   "projects": [
     {
-      "name": "C# AStar Pathfinding Algorithm",
+      "name": "C# AStar",
       "about": "Pathfinding algorithm written in C# using Splashkit library.",
       "image": "https://github.com/makaracc/CSharpPathfinding/raw/main/Resources/app%20_running.png",
       "link": "https://github.com/makaracc/CSharpPathfinding"
