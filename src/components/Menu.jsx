@@ -3,7 +3,7 @@ import { nanoid } from "nanoid";
 import "./Menu.css";
 
 export const Menu = ({ page, setPage }) => {
-  const menu = ["About", "Projects", "Contact", "Resume"];
+  const menu = ["About", "Projects", "Skills", "Resume"];
   const [isClicked, setIsClicked] = useState(false);
 
   useEffect(() => {
@@ -25,7 +25,7 @@ export const Menu = ({ page, setPage }) => {
           <a
             href={`#${item}`}
             key={nanoid()}
-            className={`menu-item `}
+            className={`menu-item`}
             onMouseMove={handleMouseMove(i)}
             onClick={handleMouseClicked(i)}
           >
@@ -34,6 +34,7 @@ export const Menu = ({ page, setPage }) => {
         ))}
       </div>
       <div className={`menu-bg`}></div>
+      <div className="bg-img"></div>
     </div>
   );
 };

@@ -53,3 +53,26 @@
   background-size: 15vmin 15vmin;
   opacity: 0.15;
 }
+
+.bg-img {
+  height: 100%;
+  width: 100%;
+
+  background-image: url(../../public/images/bg-img.jpeg);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+
+  background-position: center 40%;
+  background-size: 110vmax;
+  opacity: 0.15;
+
+  transition: opacity 800ms ease, background-size 800ms ease,
+    background-position 800ms ease;
+}
+
+.menu-items:hover ~ .bg-img {
+  background-size: 80vmax;
+  opacity: 0.1;
+}

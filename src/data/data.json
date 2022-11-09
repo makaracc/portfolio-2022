@@ -4,8 +4,14 @@
   "name": "Makara",
   "email": "makara_chhaing@hotmail.com",
   "phone": "0421719345",
-  "my_image": "",
+  "my_image": "../../public/images/me.jpeg",
   "home_description": "",
-  "address": "Sydney",
-  "about:": ""
+  "projects": [
+    {
+      "name": "C# AStar Pathfinding Algorithm",
+      "about": "Pathfinding algorithm written in C# using Splashkit library.",
+      "image": "https://github.com/makaracc/CSharpPathfinding/raw/main/Resources/app%20_running.png",
+      "link": "https://github.com/makaracc/CSharpPathfinding"
+    }
+  ]
 }
