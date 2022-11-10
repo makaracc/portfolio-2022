@@ -7,7 +7,7 @@ import { Content } from "./components/Content";
 import { Resume } from "./components/Resume";
 import { useStore } from "./hooks/useStore";
 function App() {
-  const [page, setPage] = useState("");
+  const [page, setPage] = useState("About");
 
   // const path = useStore((state) => state.path);
   // const setPath = useStore((state) => state.setPath);
