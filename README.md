@@ -1,6 +1,6 @@
 # Welcome, this is my portfolio website 😁
 
-## Tech: React Vite Tailwind CSS
+## Stack: React Vite Tailwind CSS
 
 ## How to run?
 
