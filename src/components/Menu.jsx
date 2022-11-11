@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import { nanoid } from "nanoid";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import {
+  faLinkedin,
+  faGithub,
+  faStackOverflow,
+} from "@fortawesome/free-brands-svg-icons";
 import "./Menu.css";
 import data from "../data/data.json";
 
@@ -36,12 +40,18 @@ export const Menu = ({ page, setPage }) => {
             {item}
           </a>
         ))}
-        <div className="absolute bottom-12 left-36 flex gap-5 place-items-center">
+        <div className="relative top-[25vh] flex gap-5 place-items-center">
           <a href="https://www.linkedin.com/in/makara-chhaing/" target="_blank">
             <FontAwesomeIcon size="2x" icon={faLinkedin} />
           </a>
           <a href="https://github.com/makaracc" target="_blank">
             <FontAwesomeIcon size="2x" icon={faGithub} />
+          </a>
+          <a
+            href="https://stackoverflow.com/users/13935537/makara"
+            target="_blank"
+          >
+            <FontAwesomeIcon size="2x" icon={faStackOverflow} />
           </a>
         </div>
       </div>
