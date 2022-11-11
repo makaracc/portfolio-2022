@@ -26,7 +26,20 @@
       "link": "https://github.com/makaracc/CatBot"
     },
     {
-      "name": "My Github",
+      "name": "3JS",
+      "about": "",
+      "image": "/images/minecraft.png",
+      "link": "https://minecraft-clone.makaracc.com/"
+    },
+
+    {
+      "name": "This site",
+      "about": "",
+      "image": "/images/this.png",
+      "link": "https://github.com/makaracc/portfolio-2022"
+    },
+    {
+      "name": "More...",
       "about": "",
       "image": "/images/more-proj.png",
       "link": "https://github.com/makaracc/"
