@@ -1,23 +1,23 @@
 .proj-item {
-  cursor: pointer;
-  transition: transform 250ms;
-  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🤔</text></svg>")
+	cursor: pointer;
+	transition: transform 250ms;
+	/* cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🤔</text></svg>")
       16 0,
-    auto;
-  transform: scale(1.02);
-  box-sizing: border-box;
+    auto; */
+	transform: scale(1.02);
+	box-sizing: border-box;
 }
 
 .proj-item:hover {
-  background-color: rgba(255, 255, 255, 0.2) 9%;
-  transform: scale(1.15);
+	background-color: rgba(255, 255, 255, 0.2) 9%;
+	transform: scale(1.15);
 }
 
 .proj-item-text {
-  background: linear-gradient(
-    180deg,
-    rgba(42, 59, 106, 0),
-    rgba(42, 59, 106, 0.7),
-    rgba(42, 59, 106, 1)
-  );
+	background: linear-gradient(
+		180deg,
+		rgba(42, 59, 106, 0),
+		rgba(42, 59, 106, 0.7),
+		rgba(42, 59, 106, 1)
+	);
 }

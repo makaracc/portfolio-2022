@@ -1,77 +1,77 @@
 .menu-items {
-  margin-left: clamp(4rem, 10vw, 20rem);
-  z-index: 2;
+	margin-left: clamp(4rem, 10vw, 20rem);
+	z-index: 2;
 }
 
 .menu-items:hover > .menu-item {
-  opacity: 0.3;
+	opacity: 0.3;
 }
 
 .menu-items:hover > .menu-item:hover {
-  opacity: 1;
+	opacity: 1;
 }
 
 .menu-item {
-  color: white;
-  font-size: clamp(0.5rem, 2vw, 1.5rem);
+	color: white;
+	font-size: clamp(0.5rem, 2vw, 1.5rem);
 
-  display: block;
-  text-decoration: none;
-  padding: clamp(0.25rem, 0.5vw, 1rem) 0.5rem;
-  padding-right: 5rem;
-  transition: all 250ms ease;
+	display: block;
+	text-decoration: none;
+	padding: clamp(0.25rem, 0.5vw, 1rem) 0.5rem;
+	padding-right: 5rem;
+	transition: all 250ms ease;
 }
 
 .menu-item:hover {
-  font-size: clamp(1rem, 3vw, 3rem);
-  padding-right: 0rem;
-  transition: all 250ms ease;
+	font-size: clamp(1rem, 3vw, 3rem);
+	padding-right: 0rem;
+	transition: all 250ms ease;
 }
 
 .menu-bg {
-  height: 100vh;
-  width: 100vw;
+	height: 100vh;
+	width: 100vw;
 
-  background-image: radial-gradient(
-    rgba(255, 255, 255, 0.2) 9%,
-    transparent 10%
-  );
+	background-image: radial-gradient(
+		rgba(255, 255, 255, 0.2) 9%,
+		transparent 10%
+	);
 
-  background-position: 0% 0%;
-  background-size: 10vmin 10vmin;
+	background-position: 0% 0%;
+	background-size: 10vmin 10vmin;
 
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
 
-  transition: opacity 800ms ease, background-size 800ms ease;
+	transition: opacity 800ms ease, background-size 800ms ease;
 }
 
 .menu-items:hover ~ .menu-bg {
-  background-size: 15vmin 15vmin;
-  opacity: 0.15;
+	background-size: 15vmin 15vmin;
+	opacity: 0.15;
 }
 
 .bg-img {
-  height: 100%;
-  width: 100%;
+	height: 100%;
+	width: 100%;
 
-  background-image: url(/images/bg-img.jpeg);
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: 0;
+	background-image: url(/images/bg-img.jpeg);
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 0;
 
-  background-position: center 40%;
-  background-size: 110vmax;
-  opacity: 0.15;
+	background-position: center 40%;
+	background-size: 110vmax;
+	opacity: 0.15;
 
-  transition: opacity 800ms ease, background-size 800ms ease,
-    background-position 800ms ease;
+	transition: opacity 800ms ease, background-size 800ms ease,
+		background-position 800ms ease;
 }
 
 .menu-items:hover ~ .bg-img {
-  background-size: 80vmax;
-  opacity: 0.1;
+	background-size: 80vmax;
+	opacity: 0.1;
 }
