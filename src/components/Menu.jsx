@@ -26,12 +26,13 @@ export const Menu = ({ page, setPage }) => {
 
 	const handleMouseClicked = (i) => (e) => {
 		setIsClicked(!isClicked);
+		setIsMenuOpen(false)
 		setPage(`${menu[i]}`);
 	};
 
 	const SocialMedia = () => (
 		// <div className="relative top-[25vh] flex gap-5 place-items-center">
-		<div className="flex gap-5 place-items-center md:relative top-[25vh]">
+		<div className="flex gap-5 place-items-center md:relative md:top-[25vh] justify-end md:justify-start">
 			<a
 				href="https://www.linkedin.com/in/makara-chhaing/"
 				target="_blank"
@@ -77,7 +78,7 @@ export const Menu = ({ page, setPage }) => {
 
 	return (
 		<div
-			className={cn('', `h-screen flex md:items-center  border-blue-50 border`)}
+			className={cn('', `h-screen flex md:items-center `)}
 		>
 			<FontAwesomeIcon
 				size="lg"
@@ -109,7 +110,7 @@ export const Menu = ({ page, setPage }) => {
 			<div
 				className={cn(
 					'menu-items',
-					'hidden md:flex flex-col justify-center items-center'
+					'hidden md:flex flex-col justify-end'
 				)}
 			>
 				<Taps className="menu-item" />
