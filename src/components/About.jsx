@@ -2,7 +2,7 @@ import * as data from '../data/data.json';
 export const About = () => {
 	return (
 		<div className="flex flex-col md:flex-row flex-grow w-full">
-			<div className="flex flex-col w-[60%] place-items-center">
+			<div className="flex flex-col w-[100%] md:w-[60%] place-items-center">
 				<img
 					src={data.my_image}
 					alt="my_img"

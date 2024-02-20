@@ -85,10 +85,10 @@ export const Menu = ({ page, setPage }) => {
 			/>
 			<div
 				className={cn(
-					'z-20 md:hidden fixed  w-[100vw] p-5 rounded-md text-right text-lg transition-transform duration-500',
+					'z-20 md:hidden fixed left-full  w-[50vw] h-[100vh] p-5 rounded-md text-right text-lg transition-transform duration-500',
 					isMenuOpen
-						? 'bg-slate-600 -transform translate-x-0'
-						: 'transform translate-x-1/2'
+						? 'bg-slate-600 transform -translate-x-full'
+						: 'transform translate-x-0'
 				)}
 			>
 				{isMenuOpen ? (
@@ -96,10 +96,6 @@ export const Menu = ({ page, setPage }) => {
 						className={cn(
 							'flex flex-col items-end gap-5 pt-5',
 							'transition-transform duration-500',
-							{
-								'transform -translate-x-0': isMenuOpen,
-								' transform translate-x-full': !isMenuOpen,
-							}
 						)}
 					>
 						<Taps />
