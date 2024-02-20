@@ -76,7 +76,9 @@ export const Menu = ({ page, setPage }) => {
 		));
 
 	return (
-		<div className={cn('', `h-screen flex items-start md:items-center`)}>
+		<div
+			className={cn('', `h-screen flex md:items-center  border-blue-50 border`)}
+		>
 			<FontAwesomeIcon
 				size="lg"
 				icon={isMenuOpen ? faX : faBars}
@@ -94,8 +96,8 @@ export const Menu = ({ page, setPage }) => {
 				{isMenuOpen ? (
 					<div
 						className={cn(
-							'flex flex-col items-end gap-5 pt-5',
-							'transition-transform duration-500',
+							'flex flex-col gap-5 pt-5',
+							'transition-transform duration-500'
 						)}
 					>
 						<Taps />
@@ -104,7 +106,12 @@ export const Menu = ({ page, setPage }) => {
 				) : null}
 			</div>
 
-			<div className={cn('menu-items', 'hidden md:flex flex-col')}>
+			<div
+				className={cn(
+					'menu-items',
+					'hidden md:flex flex-col justify-center items-center'
+				)}
+			>
 				<Taps className="menu-item" />
 				<SocialMedia />
 			</div>

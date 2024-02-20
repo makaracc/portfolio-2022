@@ -31,7 +31,7 @@ function App() {
 	};
 
 	return (
-		<div className="bg-gray-900 m-0 flex flex-row relative">
+		<div className="bg-gray-900 m-0 flex flex-row p-10">
 			<Menu
 				page={page}
 				setPage={setPage}
