@@ -43,7 +43,6 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: 1;
 
 	transition: opacity 800ms ease, background-size 800ms ease;
 }
@@ -61,7 +60,6 @@
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	z-index: 0;
 
 	background-position: center 40%;
 	background-size: 110vmax;
