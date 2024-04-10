@@ -21,7 +21,7 @@ export const Resume = () => {
 
 	return (
 		<div className="w-[500px] text-center ">
-			<button className="button bg-cyan-500 p-5 rounded font-mono hover:bg-cyan-600 resume">
+			<button className="button bg-cyan-500 p-5 rounded font-mono hover:bg-cyan-600 ">
 				<a
 					href={file}
 					target="_blank"

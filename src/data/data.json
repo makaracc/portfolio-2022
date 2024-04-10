@@ -9,14 +9,14 @@
 	"new_projects": [
 		{
 			"name": "Ceteris - AI Document Chat",
-			"about": "Having conversation with Your PDF document with power of AI",
+			"about": "Having conversation with Your PDF document with power of AI. Integrated with NextJS, OpenAI, Pinecone (Vector Database), Stripe payment and more.",
 			"image": "/images/thumbnail.png",
-			"link": "https://cetelis.live"
+			"link": "https://ceteris.live"
 		},
 		{
-			"name": "Electrical Business Website",
-			"about": "A business website for an electrical company",
-			"image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=750,h=752,fit=crop/meP13Re0qviwggbR/laser-A85Z6OWOBeuBqJWw.jpeg",
+			"name": "Website for Electrical Business",
+			"about": "A business website for an electrical company with optimised SEO, CMS, and Messenger integrated.",
+			"image": "/images/car-eekea.png",
 			"link": "https://eekea.com.au/"
 		}
 	],
